@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* make scrollbar thin - for firefox */
+  .scroller {
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+  }
+
+  /* make scrollbar thin - chrome */
+  .scroller::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+    background-color: transparent;
+  }
+
+  .scroller::-webkit-scrollbar-thumb {
+    background: black;
+  }
+
+  body.dark .scroller::-webkit-scrollbar-thumb {
+    background: white;
+  }
+
+  .animate-loading {
+    animation: loading 2s infinite forwards linear;
+  }
+
+  @keyframes loading {
+    to {
+      transform: translateX(100%);
+    }
+  }
+}
