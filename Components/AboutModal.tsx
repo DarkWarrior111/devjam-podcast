@@ -86,12 +86,12 @@ const AboutModal = ({
                       <h3>Search for podcasts.</h3>
 
                       <p>
-                        Users can search for podcast using title, owner or
+                        You can search for podcast using title, owner or
                         author. <br />
-                        Additionally, users can also search for podcast using
+                        Additionally, you can also search for podcast using
                         categories by clicking on <FaTag className="inline" />{' '}
                         on the left of the search bar. This enables category
-                        search mode and users can search using the categories.
+                        search mode and you can search using the categories.
                         Separate categories by a space and use hyphen( - )
                         before a category to exclude it from the search results.
                         <br />
@@ -103,7 +103,7 @@ const AboutModal = ({
                       <h3>View podcast information.</h3>
 
                       <p>
-                        Users can see more information about the podcast by
+                        You can see more information about the podcast by
                         clicking on the title of the podcast
                       </p>
                     </li>
@@ -112,13 +112,13 @@ const AboutModal = ({
                       <h3>Listen to podcasts.</h3>
 
                       <p>
-                        Users can listen to podcasts by clicking on the
-                        thumbnail of the episode. Users can also queue podcasts
+                        You can listen to podcasts by clicking on the
+                        thumbnail of the episode. You can also queue podcasts
                         by clicking on plus icon ({' '}
                         <FaPlusCircle className="inline" /> ) in the episode
                         information.
                         <br />
-                        Users can listen to all the episodes of a podcast by
+                        You can listen to all the episodes of a podcast by
                         clicking on play all and selecting the order to play
                         the episodes in.
                       </p>
@@ -127,7 +127,7 @@ const AboutModal = ({
                       <h3>Add podcasts to favourite.</h3>
 
                       <p>
-                        Users can add podcasts and remove them from favourites
+                        You can add podcasts and remove them from favourites
                         by clicking on the heart icon in the podcast title.
                       </p>
                     </li>
@@ -140,7 +140,7 @@ const AboutModal = ({
                     bottom of the screen.
                     <br />
                     The player is used to control the playback of the podcast.
-                    Users can play/pause the podcast, seek, go
+                    You can play/pause the podcast, seek, go
                     forwards/backwards by 5 seconds, adjust the volume of the
                     podcast, play next/previous podcast and see the queue.
                     <br />
